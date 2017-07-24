@@ -1,0 +1,94 @@
+body{
+	background-color: #02010a;
+	margin: 0 auto;
+}
+header{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	align-items: center; /*Alineación vertical y horizontal del menú y el título*/
+	text-align: center;
+	background-color: #5b7989;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+	border-radius: 10px 10px 0 0;
+	font-family: "Dancing Script";
+}
+
+header h1{
+	text-shadow: 2px 2px 5px #02010a;
+	font-size: 3em;
+}
+
+header ul{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex; 
+
+	overflow: hidden;
+	list-style: none;
+	padding: 0 10px 0;
+}
+
+header a{
+	color: inherit;
+	margin: 0 4px 0;
+}
+
+footer{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	background-color: #C6d5c5;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 0px 0px 10px 10px;
+}
+/*Versión de móviles*/
+@media only screen and (max-width: 900px){
+	header{
+		flex-flow: column;
+	}
+
+	header a{
+		font-size: 1.5em;
+	}
+
+	footer{
+		flex-flow: column;
+	}
+
+	footer div{
+		padding: 10px 15%;
+	}
+}
+
+/*Versión de escritorio*/
+@media only screen and (min-width: 900px){
+	header{
+		flex-flow: row;
+		justify-content: space-around; /*Para separar el título del menú*/
+	}
+
+	header a{
+		font-size: 1.8em;
+	}
+
+	footer{
+		flex-flow: row;
+	}
+
+	footer div{
+		width: 25%;
+		padding: 25px 2%;
+	}
+}
