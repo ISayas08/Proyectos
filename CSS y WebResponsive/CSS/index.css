@@ -1,12 +1,13 @@
-#contenido{
-	margin: 0 auto;
-}
-
 #sec_Central{
 	background-color: #82c3a6;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
+}
+
+#sec_Central img{
+	border: 2px solid black;
+	box-shadow: 2px 2px 5px gray;
 }
 
 #sec_Secundaria{
@@ -25,6 +26,25 @@
 	padding: 2% 0;
 }
 
+#sec_Secundaria img{
+	transition: all 1s ease-in-out;
+	border: 2px solid black;
+	box-shadow: 2px 2px 5px #82c3a6;
+}
+
+#sec_Secundaria img[src $= "paisaje5.jpg"]:hover {
+	transform: translateX(20px) 
+	translateY(-5px);
+	transition-duration: 1s;
+	box-shadow: 5px 5px 5px #82c3a6;
+}
+
+#sec_Secundaria img[src $= "retra6.jpg"]:hover{
+	transform: rotate(10deg);
+	transition-duration: 1s;
+	box-shadow: 5px 5px 5px #82c3a6;
+}
+
 #sec_Secundaria a{
 	font-family: "Dancing Script";
 	color: white;
@@ -32,16 +52,8 @@
 	text-shadow: 2px 2px 5px #02010a;
 }
 
-.active{
-	text-decoration: none;
-}
-
 /*Versión de móviles*/
 @media only screen and (max-width: 900px){
-	#contenido{
-		width: 100%;
-	}
-
 	#sec_Central img{
 		width: 90%;
 		margin: 4% 0px;
@@ -59,10 +71,6 @@
 
 /*Versión de escritorio*/
 @media only screen and (min-width: 900px){
-	#contenido{
-		width: 900px;
-	}
-
 	#sec_Central img{
 		width: 90%;
 		margin: 4% 0px;

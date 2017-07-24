@@ -1,7 +1,12 @@
+#contenido{
+	margin: 0 auto;
+}
+
 body{
 	background-color: #02010a;
 	margin: 0 auto;
 }
+
 header{
 	display: -webkit-box;
 	display: -moz-box;
@@ -17,6 +22,9 @@ header{
 	color: white;
 	border-radius: 10px 10px 0 0;
 	font-family: "Dancing Script";
+
+	-webkit-animation: slide 1s; /* Safari 4.0 - 8.0 */
+	animation: slide 1s;
 }
 
 header h1{
@@ -53,8 +61,52 @@ footer{
 	text-align: center;
 	border-radius: 0px 0px 10px 10px;
 }
+
+footer ul{
+	width: 100px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+footer li {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+}
+
+footer ul img{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+footer a{
+	color: black;
+}
+
+.active{
+	text-decoration: none;
+}
+
+@-webkit-keyframes slide {
+	0%	 {margin-top: 160%;}
+	60%	 {margin-top: -5%;}
+	100% {margin-top: 0%;}
+}
+
+@keyframes slide {
+	0%	 {margin-top: 160%;}
+	60%	 {margin-top: -5%;}
+	100% {margin-top: 0%;}
+}
+
 /*Versión de móviles*/
 @media only screen and (max-width: 900px){
+	#contenido{
+		width: 100%;
+	}
+
 	header{
 		flex-flow: column;
 	}
@@ -74,6 +126,10 @@ footer{
 
 /*Versión de escritorio*/
 @media only screen and (min-width: 900px){
+	#contenido{
+		width: 900px;
+	}
+
 	header{
 		flex-flow: row;
 		justify-content: space-around; /*Para separar el título del menú*/
