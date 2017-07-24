@@ -1,9 +1,10 @@
-#contenido{
-	margin: 0 auto;
-}
-
 body{
 	background-color: #02010a;
+	margin: 0 auto;
+	font-family: "Dancing Script";
+}
+
+#contenido{
 	margin: 0 auto;
 }
 
@@ -21,7 +22,6 @@ header{
 	box-sizing: border-box;
 	color: white;
 	border-radius: 10px 10px 0 0;
-	font-family: "Dancing Script";
 
 	-webkit-animation: slide 1s; /* Safari 4.0 - 8.0 */
 	animation: slide 1s;
@@ -60,6 +60,7 @@ footer{
 	box-sizing: border-box;
 	text-align: center;
 	border-radius: 0px 0px 10px 10px;
+	font-size: 1.2em;
 }
 
 footer ul{
