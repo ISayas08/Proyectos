@@ -1,0 +1,184 @@
+{
+	"usuarios": [
+		{
+			"id": 0,
+			"user": "ismael.sayas@nextu.com",
+			"pass": "12345"
+		},
+		{
+			"id": 1,
+			"user": "ismael_sayas@outlook.com",
+			"pass": "12345"	
+		}
+	],
+	"productos": [
+		{
+			"id": 0,
+			"nombre": "Brocoli",
+			"precio": 1200,
+			"disponible": 50,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "brocoli.png" 
+		},
+		{
+			"id": 1,
+			"nombre": "Aguacate",
+			"precio": 3000,
+			"disponible": 150,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "aguacate.jpg" 
+		},
+		{
+			"id": 2,
+			"nombre": "Ajo",
+			"precio": 300,
+			"disponible": 40,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "ajo.jpg" 
+		},
+		{
+			"id": 3,
+			"nombre": "Almendras",
+			"precio": 4000,
+			"disponible": 50,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "almendras.jpg" 
+		},
+		{
+			"id": 4,
+			"nombre": "Arandanos",
+			"precio": 5000,
+			"disponible": 120,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "arandanos.jpg" 
+		},
+		{
+			"id": 5,
+			"nombre": "Calabazas",
+			"precio": 5000,
+			"disponible": 20,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "calabaza.jpg" 
+		},
+		{
+			"id": 6,
+			"nombre": "Canela",
+			"precio": 200,
+			"disponible": 320,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "canela.jpg" 
+		},
+		{
+			"id": 7,
+			"nombre": "Cebolla",
+			"precio": 500,
+			"disponible": 200,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "cebolla.jpg" 
+		},
+		{
+			"id": 8,
+			"nombre": "Fresa",
+			"precio": 1000,
+			"disponible": 100,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "fresa.jpg" 
+		},
+		{
+			"id": 9,
+			"nombre": "Kiwi",
+			"precio": 2500,
+			"disponible": 160,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "kiwi.jpg" 
+		},
+		{
+			"id": 10,
+			"nombre": "Limón",
+			"precio": 500,
+			"disponible": 320,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "limon.jpg" 
+		},
+		{
+			"id": 11,
+			"nombre": "Lychee",
+			"precio": 5000,
+			"disponible": 220,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "lychee.jpg" 
+		},
+		{
+			"id": 12,
+			"nombre": "Maiz",
+			"precio": 1000,
+			"disponible": 250,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "maiz.jpg" 
+		},
+		{
+			"id": 13,
+			"nombre": "Manzana",
+			"precio": 1300,
+			"disponible": 80,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "manzana.jpg" 
+		},
+		{
+			"id": 14,
+			"nombre": "Naranja",
+			"precio": 400,
+			"disponible": 180,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "naranja.jpg" 
+		},
+		{
+			"id": 15,
+			"nombre": "Papa",
+			"precio": 200,
+			"disponible": 420,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "papa.jpg" 
+		},
+		{
+			"id": 16,
+			"nombre": "Pasta",
+			"precio": 5000,
+			"disponible": 60,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "pasta.jpg" 
+		},
+		{
+			"id": 17,
+			"nombre": "Pimienta",
+			"precio": 200,
+			"disponible": 70,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "pimienta.jpg" 
+		},
+		{
+			"id": 18,
+			"nombre": "Repollo",
+			"precio": 800,
+			"disponible": 50,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "repollo.jpg" 
+		},
+		{
+			"id": 19,
+			"nombre": "Tomate",
+			"precio": 500,
+			"disponible": 212,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "tomate.jpg" 
+		},
+		{
+			"id": 20,
+			"nombre": "Zanahoria",
+			"precio": 1200,
+			"disponible": 82,
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a quo quidem similique tenetur. Et consequuntur.",
+			"url": "zanahoria.jpg" 
+		}
+	]
+}
