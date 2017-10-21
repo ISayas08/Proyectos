@@ -27,6 +27,18 @@ header{
 	animation: slide 1s;
 }
 
+@-webkit-keyframes slide {
+	0%	 {margin-top: 160%;}
+	60%	 {margin-top: -5%;}
+	100% {margin-top: 0%;}
+}
+
+@keyframes slide {
+	0%	 {margin-top: 160%;}
+	60%	 {margin-top: -5%;}
+	100% {margin-top: 0%;}
+}
+
 header h1{
 	text-shadow: 2px 2px 5px #02010a;
 	font-size: 3em;
@@ -39,7 +51,6 @@ header ul{
 	display: -webkit-flex;
 	display: flex; 
 
-	overflow: hidden;
 	list-style: none;
 	padding: 0 10px 0;
 }
@@ -88,18 +99,6 @@ footer a{
 
 .active{
 	text-decoration: none;
-}
-
-@-webkit-keyframes slide {
-	0%	 {margin-top: 160%;}
-	60%	 {margin-top: -5%;}
-	100% {margin-top: 0%;}
-}
-
-@keyframes slide {
-	0%	 {margin-top: 160%;}
-	60%	 {margin-top: -5%;}
-	100% {margin-top: 0%;}
 }
 
 /*Versión de móviles*/

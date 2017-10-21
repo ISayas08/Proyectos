@@ -33,8 +33,7 @@
 }
 
 #sec_Secundaria img[src $= "paisaje5.jpg"]:hover {
-	transform: translateX(20px) 
-	translateY(-5px);
+	transform: translate(20px, -5px);
 	transition-duration: 1s;
 	box-shadow: 5px 5px 5px #82c3a6;
 }

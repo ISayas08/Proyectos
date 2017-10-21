@@ -1,0 +1,18 @@
+<svg width="250" height="120" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="122" width="252" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(15.913349151611328,0,0,5.137449264526367,-3487.3934906721115,-724.4415071606636) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="170" x="220.5" stroke-width="0" fill="#000000"/>
+  <text stroke="#000" transform="matrix(17.26229476928711,0,0,7.9289870262146,-154.49180030822754,-140.52851812541485) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="42" x="9.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"/>
+  <text stroke="#000" transform="matrix(3.6291701793670654,0,0,3.4615385532379146,-51.268818497657776,-195.4615457057953) " xml:space="preserve" text-anchor="start" font-family="'Simonetta', serif" font-size="24" id="svg_4" y="81.8" x="20.60218" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">I.S.A.</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="101" x2="238.5" y1="102" x1="12.5" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="21" x2="237.5" y1="22" x1="11.5" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+ </g>
+</svg>
